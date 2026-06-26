@@ -15,14 +15,15 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from "vue";
+export default defineComponent({
   props: {
     size: {
       type: [String, Number],
       default: '24',
     },
   },
-}
+})
 </script>
 
 <style></style>
